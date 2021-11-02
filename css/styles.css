@@ -1,0 +1,158 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+}
+
+/*em - 1em is = 16px, 100% = 16px to set by em
+simply / pixel by 16 ex: 90 / 16 = 5.625%
+or 90 / 16 = 5.625 em
+rem is relative size (meaning when browser will respect the change)*/
+h1 {
+  color: #66BFBF;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  line-height: 2;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  line-height: 2;
+}
+
+hr {
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+.top-container {
+  background-color: #EAF6F6;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  position: relative;
+  padding-bottom: 30px;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.linkedin-link {
+  color: #11999E;
+  position: absolute;
+  left: 650px;
+  top: 40px;
+}
+
+.twitter-link {
+  color: #11999E;
+  position: absolute;
+  left: 750px;
+  top: 40px;
+}
+
+.website-link {
+  color: #11999E;
+  position: absolute;
+  left: 850px;
+  top: 40px;
+}
+
+a {
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+.btn {
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  color: White;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px 20px 10px 20px;
+  background-color: #66BFBF;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.computer-img {
+  width: 25%;
+  float: right;
+  height: auto;
+  margin-left: 30px;
+}
+
+.fitness-img {
+  width: 25%;
+  height: auto;
+  float: left;
+  margin-right: 30px;
+}
+
+.profile-description {
+  color: #40514E;
+  width: 30%;
+  margin: auto;
+}
+
+.copyright-text {
+  color: #EAF6F6;
+  padding-top: 100px;
+  font-size: 0.75rem;
+}
